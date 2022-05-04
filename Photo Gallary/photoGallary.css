@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    background-image: url(./places/1651481659653.webp);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    text-align: center;
+    top: 0;
+}
+
+.navlist {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 5px 30px;
+    margin: 5px;
+}
+
+.navlist li {
+    list-style: none;
+    padding-left: 20px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.navlist li :hover {
+    color: rgb(158, 158, 222);
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navright {
+
+    display: flex;
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.search {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn {
+    font-size: medium;
+    background-color: rgb(203, 49, 49);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.section {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: navy;
+    margin-top: 10px;
+    background-color: rgb(240, 224, 226);
+    padding: 18px;
+
+}
+
+.subhead {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(221, 63, 63);
+    margin: 8px;
+    background-color: rgb(213, 213, 235);
+    padding: 15px;
+}
+
+.container {
+    background-color: rgb(210, 236, 233);
+    max-width: 1500px;
+    margin: auto;
+    overflow: auto;
+}
+
+body {
+    background-color: rgb(218, 230, 234);
+}
+
+.oneimg {
+    margin: 20px;
+    float: left;
+    width: 450px;
+    text-align: center;
+    padding: auto;
+}
+
+.image {
+    width: 400px;
+    border-radius: 10px;
+    background-origin: padding-box;
+    border: 3px solid rgb(177, 80, 80);
+    box-shadow: 4px 4px 4px rgb(193, 127, 127);
+    height: 300px;
+    
+}
+
+
+.place {
+    font-size: 28px;
+    color: rgb(72, 6, 164);
+    padding: 10px;
+}
+
+.disc {
+    font-size: 18px;
+}
+
+
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+
+}
+.button :hover{
+    background-color: bisque;
+    color: red;
+    border: rgb(208, 174, 174) solid 3px;
+}
+
+.dislike {
+    background-color: rgb(180, 20, 20);
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+
+.like {
+    background-color: rgb(180, 20, 20);
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+footer {
+    background-image: url(./places/1651481659653.webp);
+    background-size: cover;
+    margin: 15px;color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    opacity: 75%;
+}
+.footer{
+    margin: 20px;
+    padding: 5px;
+    color: white;
+}
+.submit{
+    width: 100px;
+    background-color: maroon;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    color: wheat;
+    border-radius: 10px;
+}
+.submit:hover{
+background-color: bisque;
+color: red;
+}
